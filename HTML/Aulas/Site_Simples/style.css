@@ -1,0 +1,55 @@
+/*Certas partes feitas pelo Copilot A.I*/
+
+:root {
+    --green: #00ff00;
+    --white: #fff;
+    --black: #000;
+    --medium-bg: #E6F7FF; /* light blue background */
+    --medium-blue: #1E90FF; /* medium blue font */
+}
+
+
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: Arial, sans-serif;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnColorFont);
+    background: var(--btnBg);
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnColorFont: var(--white);
+    --btnBg: var(--black);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnColorFont: var(--black);
+    --btnBg: var(--white);
+}
+
+.theme-medium {
+    --bg: var(--medium-bg);
+    --fontColor: var(--medium-blue);
+}
